@@ -31,7 +31,7 @@ git clone https://github.com/husa45/TreeCTOR.git
 
 No dependencies are needed to run this tool  , all used packages are python built-in . This mean that you can run it anywhere , no pre-installations are required.
 
-**Note :**You need python3 to run this tool.
+**Note :** You need python3 to run this tool.
 
 ## Usage :
 
