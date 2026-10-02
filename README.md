@@ -70,7 +70,7 @@ it will do the same for procmon logs .
 
 - If you want the tool to parse sysmon-logs even faster than it does , just filter for **Sysmon EventID 1  ProcessExecution** before dumping the log .
 
-Since is logical since you are only interested in **Process Execution** events to build a proces tree.
+   This is logical since you are only interested in **Process Execution** events to build a proces tree.
 
 
 - The same thing applies for **procmon** logs , only filter for Process-Execution events , other events such as network ,registry and file will just be noise .
