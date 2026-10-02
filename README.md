@@ -56,7 +56,7 @@ python3 TreeCTOR.py -s 1 -i <path to your sysmon-XML file>
 
 the tool will build the full process tree , and show the result on stdout.
 <br><br><br>
-If you have a Procmon-csv outputted log , and you want the process tree :
+If you have a Procmon-CSV outputted log , and you want the process tree :
 
 ```
 python3 TreeCTOR.py -p 1 -i <path to your Procmon-csv file>
@@ -86,7 +86,7 @@ However this does not affect the  integrity of the graph (Parent-Child relations
 >For sysmon events parsing  , the tool depends on the XML format as outputted by **EvtExcmd** tool by eric zimmerman . Using the default **Saveas** xml in event viewer will work , but will give a similar issue as discussed for Procmon log filtering .
 
 >[!IMPORTANT]
->For procmon logs , when dumping the output from **Procmon** , make sure to **SaveAs** csv , and do not save **profiling** events , as they will make the logs bigger , and harder to parse .
+>For procmon logs , when dumping the output from **Procmon** , make sure to **SaveAs** SCV , and do not save **profiling** events , as they will make the logs bigger , and harder to parse .
 
 >[!IMPORTANT]
 >For procmon  , you might consider to use this column-setup , as the tool depends on a fixed column-layout to parse the logs :
