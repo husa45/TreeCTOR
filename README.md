@@ -84,7 +84,9 @@ it will do the same for procmon logs .
 <br><br>
 >[!IMPORTANT]
 >For sysmon events parsing  , the tool depends on the XML format as outputted by **EvtExcmd** tool by eric zimmerman . Using the default **Saveas** xml in event viewer will work , but will give a similar issue as discussed for Procmon log filtering .
+
 <br><br>
+
 >[!IMPORTANT]
 >For procmon logs , when dumping the output from **Procmon** , make sure to **SaveAs** SCV , and do not save **profiling** events , as they will make the logs bigger , and harder to parse .
 
