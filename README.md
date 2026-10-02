@@ -90,7 +90,7 @@ it will do the same for procmon logs .
 >[!IMPORTANT]
 >For procmon logs , when dumping the output from **Procmon** , make sure to **SaveAs** SCV , and do not save **profiling** events , as they will make the logs bigger , and harder to parse .
 
-
+<br>
 
 >[!IMPORTANT]
 >For procmon  , you might consider to use this column-setup , as the tool depends on a fixed column-layout to parse the logs :
