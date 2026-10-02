@@ -75,11 +75,11 @@ it will do the same for procmon logs .
 
 - The same thing applies for **procmon** logs , only filter for Process-Execution events , other events such as network ,registry and file will just be noise .
 
-**Caveat:** Filtering process events in procmon , will make the tree slightly  mangled (**For example , User launched processes may appear at the begining of the tree , while system processes will apear below**).
+  **Caveat:** Filtering process events in procmon , will make the tree slightly  mangled (**For example , User launched processes may appear at the     begining of the tree , while system processes will apear below**).
 
-However this does not affect the  integrity of the graph (Parent-Child relations are maintained and clear) , It will make it harder to visualize the tree.
+  However this does not affect the  integrity of the graph (Parent-Child relations are maintained and clear) , It will make it harder to visualize     the tree.
 
-**So , just for procmon** , if you are not very hurry , do not filter anything , feed the tool the log as it is .
+  **So , just for procmon** , if you are not very hurry , do not filter anything , feed the tool the log as it is .
 
 
 >[!IMPORTANT]
