@@ -146,7 +146,7 @@ def build_pstree_sysmon(xml_in_path: 'str') -> 'None':
     :return:nothing , result is sent to stdout
     """
     xml_file_data = ""
-    with open(xml_in_path, "r") as reader:
+    with open(xml_in_path, "r", errors="ignore") as reader:
         xml_file_data = reader.read()
 
     xml_file_data = re.sub(r'<\?xml[^>]*\?>', '', xml_file_data)  # This will remove the xml header that ETW adds
